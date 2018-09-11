@@ -1,54 +1,60 @@
 const nodemailer = require('nodemailer');
 const xoauth2 = require('oauth2');
-
+const cron = require('node-cron');
 
 var transporter = nodemailer.createTransport({
   host: 'smtp.gmail.com',
   port: 465,
   secure: true,
   auth : {
-      type: "oauth2",
-      user: "anuragyadav13481@gmail.com",
-      clientId: "950446218787-opbvnkmvh6sigf2osqrdd1el294mkkhs.apps.googleusercontent.com",
-      clientSecret: "3znTvSN9CG1eFBm5_eAaXt_l",
-      accessToken: "ya29.Glv6BR6_lu8leNpju4Ks6WzjPLuA3fDJty8SpASo7n2dDrO9UAlK4X6inBeFg9DVfTQEWl8s8Gy_CXhbX_M0_ixLE9ZLSYi77LmE1ECCJyPTNOQciIpX-h_yHRY0",
-      refreshToken: "1/tU-SC39wUVAfMBFkFzMybL7XjO0U8VaOTVHG9a9E_J0"
+    user: 'ccodechef@gmail.com',
+    pass: 'shivam00'
+      // type: "oauth2",
+      // user: "ccodechef@gmail.com",
+      // clientId: "1079228301023-fbrqbe24dc296mqac9tp0g2hrgip849m.apps.googleusercontent.com",
+      // clientSecret: "R4Y7aZTHiE7kJ3M5ukmCqA2b",
+      // accessToken: "ya29.Glv6BR6_lu8leNpju4Ks6WzjPLuA3fDJty8SpASo7n2dDrO9UAlK4X6inBeFg9DVfTQEWl8s8Gy_CXhbX_M0_ixLE9ZLSYi77LmE1ECCJyPTNOQciIpX-h_yHRY0",
+      // refreshToken: "1/tU-SC39wUVAfMBFkFzMybL7XjO0U8VaOTVHG9a9E_J0"
   }
 });
 
 var mailOptions = {
   from : 'anuragyadav13481@gmail.com',
-  to : "dsscs@mmmut.ac.in, dss_mec@yahoo.co.in",
+  to : 'anuragyadav13481@gmail.com',
   subject : 'Coder Reminder',
   text : 'This is body',
-  html : '<h1 style="text-align:center">Anurag<h1><br><p style="text-align:justify; color:green; font-size:20px;">Hi this is Hackathon reminding you for contests</p>',
+  html : '<h1 style="text-align:center;color:green">Codechef Contest Reminder<h1>',
 };
 
 
-exports.sendMail = function(newMailOptions){
+exports.sendMail = function(emails, futureContests){
+  // console.log(futureContests);
+  // console.log( 2  + " 33333333333333333333333333333333333333333333333333333333333333333333333333");
+  // console.log(emails);
+  mailOptions.to = emails;
+  for(key in futureContests){
+    mailOptions.html+=
+    `<div>
+      <p style="text-align:justify;font-size:20px;">
+      Code : ${futureContests[key].code}<br />
+      Contest : ${futureContests[key].name} <br />
+      Starting From : ${futureContests[key].startDate} Time: ${futureContests[key].startTime} <br/>
+      Contest End : ${futureContests[key].endDate} Time: ${futureContests[key].endDate} <br/>
+      <br/><br/>
+    </p></div>
+    <br/>
+    `;
+  }
 
-  mailOptions.from = `${newMailOptions.email}`;
-  mailOptions.subject = newMailOptions.subject;
-
-  mailOptions.html = `
-  <div style="width:65%;color:white;padding: 12px;background-color:indigo;border-radius:12px; margin: 0 auto">
-  <h1 style="text-align:center">New User Want to connect you..<h1>
-  <p style="text-align:justify;font-size:20px;">
-    Code : ${newMailOptions.code}<br />
-    Contest : ${newMailOptions.name} <br />
-    Starting From : ${newMailOptions.startDate} Time: ${newMailOptions.startTime} <br/>
-    Contest End : ${newMailOptions.endDate} Time: ${newMailOptions.endDate} <br/>
-    <br/><br/>
-    Message: ${newMailOptions.message} <br/>
-  </p></div>
-  `;
-
-  transporter.sendMail(mailOptions, function(error,info){
-    if (error) {
-      console.log(error.message);
-    }
-    else {
-      console.log('Mail sent : '+ info.accepted);
-    }
+  //00 22 * * *
+  cron.schedule("* * * * * *", ()=>{
+    transporter.sendMail(mailOptions, function(error,info){
+      if (error) {
+        console.log(error);
+      }
+      else {
+        console.log('Mail sent : '+ info.accepted);
+      }
+    });
   });
 };

@@ -6,27 +6,45 @@ var contestApiUrl = 'http://localhost:3000/reminder';
 var userApiUrl = 'http://localhost:3000/user';
 
 var futureContests = [];
-var users = [];
+var emails = [];
+var a = 0;
+var myBody = [];
 
-exports.makeRequest = function(){
-  var r = request(contestApiUrl, function(err, response, body){
-
-    var info = JSON.parse(body);
-
-    for(key in info){
-
-      if((moment().format())<=(moment().format(info[key].startDate))){
+function setBody(something){
+  contests = [];
+  myBody[a] = something;
+  notset = false;
+  a++;
+  if(a==2){
+    emailBody = myBody[0];
+    var contestsBody = JSON.parse(myBody[1]);
+    for(key in contestsBody){
+      if((moment().format())<=(moment().format(contestsBody[key].startDate))){
         var contest = {
-          code: info[key].code,
-          name: info[key].name,
-          startDate: moment(info[key].startDate).format('Do MMMM YYYY'),
-          startTime: moment(info[key].startDate).format('h:mm A'),
-          endDate: moment(info[key].endDate).format('Do MMMM YYYY'),
-          endTime: moment(info[key].endTime).format('h:mm A')
+          code: contestsBody[key].code,
+          name: contestsBody[key].name,
+          startDate: moment(contestsBody[key].startDate).format('Do MMMM YYYY'),
+          startTime: moment(contestsBody[key].startDate).format('h:mm A'),
+          endDate: moment(contestsBody[key].endDate).format('Do MMMM YYYY'),
+          endTime: moment(contestsBody[key].endTime).format('h:mm A')
         };
         futureContests.push(contest);
       }
     }
-    console.log(futureContests);
-  });
-};
+
+    var emailsBody = JSON.parse(myBody[0]);
+    for(key in emailsBody){
+      emails.push(emailsBody[key].email);
+    }
+    mail.sendMail(emails, futureContests);
+  }
+}
+request(contestApiUrl, function(err, response, body){
+  if(err) console.log("############################################3"+err);
+  setBody(body);
+});
+
+request(userApiUrl, function(err, response, body){
+  if(err) console.log("############################################3"+err);
+  setBody(body);
+});

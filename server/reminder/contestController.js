@@ -47,11 +47,13 @@ exports.put = function(req, res, next){
 };
 
 exports.post = function(req, res, next){
-    var newContest = new Contest(req.body);
-    console.log(req.body);
+    // var newContest = new Contest(req.body);
+    // console.log(req.body);
     newContest.save(function(err, contest){
         if(err){
             res.json('Error while saving data \n'+err);
+        }else{
+          res.json(contest);
         }
     });
 };

@@ -18,7 +18,6 @@ exports.params = function(req, res, next, id){
 };
 
 exports.get = function(req, res, next){
-  apiRequest.makeRequest();
   User.find({})
       .exec()
       .then(function(users){

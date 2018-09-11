@@ -1,348 +1,348 @@
         {
-            code: "MITC2019",
-            name: "MNM IT Online Programming Contest",
-            startDate: "2018-10-06 10:00:00",
-            endDate: "2018-10-06 13:00:00"
+            "code": "MITC2019",
+            "name": "MNM IT Online Programming Contest",
+            "startDate": "2018-10-06 10:00:00",
+            "endDate": "2018-10-06 13:00:00"
           },
           {
-            code: "CCWC2018",
-            name: "Clash Credenz 2018 Wildcard",
-            startDate: "2018-09-16 21:00:00",
-            endDate: "2018-09-16 23:00:00"
+            "code": "CCWC2018",
+            "name": "Clash Credenz 2018 Wildcard",
+            "startDate": "2018-09-16 21:00:00",
+            "endDate": "2018-09-16 23:00:00"
           },
           {
-            code: "GOV32018",
-            name: "GOOGOL V3.0",
-            startDate: "2018-09-08 21:00:00",
-            endDate: "2018-09-09 00:00:00"
+            "code": "GOV32018",
+            "name": "GOOGOL V3.0",
+            "startDate": "2018-09-08 21:00:00",
+            "endDate": "2018-09-09 00:00:00"
           },
           {
-            code: "SEPT18",
-            name: "September Challenge 2018",
-            startDate: "2018-09-07 15:00:00",
-            endDate: "2018-09-17 15:00:00"
+            "code": "SEPT18",
+            "name": "September Challenge 2018",
+            "startDate": "2018-09-07 15:00:00",
+            "endDate": "2018-09-17 15:00:00"
           },
           {
-            code: "INQU2018",
-            name: "Insomnia Qualifier 2018",
-            startDate: "2018-09-01 22:00:00",
-            endDate: "2018-09-02 01:30:00"
+            "code": "INQU2018",
+            "name": "Insomnia Qualifier 2018",
+            "startDate": "2018-09-01 22:00:00",
+            "endDate": "2018-09-02 01:30:00"
           },
           {
-            code: "BIBA2018",
-            name: "Binary Battle",
-            startDate: "2018-09-01 19:30:00",
-            endDate: "2018-09-01 23:00:00"
+            "code": "BIBA2018",
+            "name": "Binary Battle",
+            "startDate": "2018-09-01 19:30:00",
+            "endDate": "2018-09-01 23:00:00"
           },
           {
-            code: "BUGF2018",
-            name: "BUG4EVER 2018 Final",
-            startDate: "2018-09-01 10:00:00",
-            endDate: "2018-09-01 22:00:00"
+            "code": "BUGF2018",
+            "name": "BUG4EVER 2018 Final",
+            "startDate": "2018-09-01 10:00:00",
+            "endDate": "2018-09-01 22:00:00"
           },
           {
-            code: "ZLC2018",
-            name: "Zhejiang Lab Cup Global AI Competition: Zero-shot Learning Picture Recognition",
-            startDate: "2018-09-01 00:00:00",
-            endDate: "2018-09-26 00:00:00"
+            "code": "ZLC2018",
+            "name": "Zhejiang Lab Cup Global AI Competition: Zero-shot Learning Picture Recognition",
+            "startDate": "2018-09-01 00:00:00",
+            "endDate": "2018-09-26 00:00:00"
           },
           {
-            code: "CAH1801",
-            name: "CodeChef API Hackathon powered by Alibaba Cloud",
-            startDate: "2018-08-27 21:15:00",
-            endDate: "2018-09-21 21:00:00"
+            "code": "CAH1801",
+            "name": "Code Chef API Hackathon powered by Alibaba Cloud",
+            "startDate": "2018-08-27 21:15:00",
+            "endDate": "2018-09-21 21:00:00"
           },
           {
-            code: "ICOP1902",
-            name: "ICO Preparatory Contest 2019 #2",
-            startDate: "2018-08-26 19:00:00",
-            endDate: "2018-08-26 23:00:00"
+            "code": "ICOP1902",
+            "name": "ICO Preparatory Contest 2019 #2",
+            "startDate": "2018-08-26 19:00:00",
+            "endDate": "2018-08-26 23:00:00"
           },
           {
-            code: "CYAU2018",
-            name: "Cypher August",
-            startDate: "2018-08-25 21:00:00",
-            endDate: "2018-08-26 00:30:00"
+            "code": "CYAU2018",
+            "name": "Cypher August",
+            "startDate": "2018-08-25 21:00:00",
+            "endDate": "2018-08-26 00:30:00"
           },
           {
-            code: "LTIME63B",
-            name: "August Lunchtime 2018 Division 2",
-            startDate: "2018-08-25 19:30:03",
-            endDate: "2018-08-25 22:30:02"
+            "code": "LTIME63B",
+            "name": "August Lunchtime 2018 Division 2",
+            "startDate": "2018-08-25 19:30:03",
+            "endDate": "2018-08-25 22:30:02"
           },
           {
-            code: "LTIME63",
-            name: "August Lunchtime 2018",
-            startDate: "2018-08-25 19:30:00",
-            endDate: "2018-08-25 22:30:00"
+            "code": "LTIME63",
+            "name": "August Lunchtime 2018",
+            "startDate": "2018-08-25 19:30:00",
+            "endDate": "2018-08-25 22:30:00"
           },
           {
-            code: "LTIME63A",
-            name: "August Lunchtime 2018 Division 1",
-            startDate: "2018-08-25 19:30:00",
-            endDate: "2018-08-25 22:30:00"
+            "code": "LTIME63A",
+            "name": "August Lunchtime 2018 Division 1",
+            "startDate": "2018-08-25 19:30:00",
+            "endDate": "2018-08-25 22:30:00"
           },
           {
-            code: "BUGE2018",
-            name: "BUG4EVER 2018 Online Round",
-            startDate: "2018-08-24 19:00:00",
-            endDate: "2018-08-29 19:00:00"
+            "code": "BUGE2018",
+            "name": "BUG4EVER 2018 Online Round",
+            "startDate": "2018-08-24 19:00:00",
+            "endDate": "2018-08-29 19:00:00"
           },
           {
-            code: "ISTS2018",
-            name: "IsquareTsquare",
-            startDate: "2018-08-22 15:00:00",
-            endDate: "2018-08-22 18:00:00"
+            "code": "ISTS2018",
+            "name": "IsquareTsquare",
+            "startDate": "2018-08-22 15:00:00",
+            "endDate": "2018-08-22 18:00:00"
           },
           {
-            code: "COOK97B",
-            name: "August Cook-Off 2018 Division 2",
-            startDate: "2018-08-19 21:30:03",
-            endDate: "2018-08-20 00:00:02"
+            "code": "COOK97B",
+            "name": "August Cook-Off 2018 Division 2",
+            "startDate": "2018-08-19 21:30:03",
+            "endDate": "2018-08-20 00:00:02"
           },
           {
-            code: "COOK97",
-            name: "August Cook-Off 2018",
-            startDate: "2018-08-19 21:30:00",
-            endDate: "2018-08-20 00:00:00"
+            "code": "COOK97",
+            "name": "August Cook-Off 2018",
+            "startDate": "2018-08-19 21:30:00",
+            "endDate": "2018-08-20 00:00:00"
           },
           {
-            code: "COOK97A",
-            name: "August Cook-Off 2018 Division 1",
-            startDate: "2018-08-19 21:30:00",
-            endDate: "2018-08-20 00:00:00"
+            "code": "COOK97A",
+            "name": "August Cook-Off 2018 Division 1",
+            "startDate": "2018-08-19 21:30:00",
+            "endDate": "2018-08-20 00:00:00"
           },
           {
-            code: "PROC2018",
-            name: "ProCon 2018 (Rated for all)",
-            startDate: "2018-08-16 21:00:00",
-            endDate: "2018-08-16 23:30:00"
+            "code": "PROC2018",
+            "name": "ProCon 2018 (Rated for all)",
+            "startDate": "2018-08-16 21:00:00",
+            "endDate": "2018-08-16 23:30:00"
           },
           {
-            code: "COWC2018",
-            name: "Codexact Wildcard",
-            startDate: "2018-08-15 21:00:00",
-            endDate: "2018-08-15 23:30:00"
+            "code": "COWC2018",
+            "name": "codexact Wildcard",
+            "startDate": "2018-08-15 21:00:00",
+            "endDate": "2018-08-15 23:30:00"
           },
           {
-            code: "COAT2018",
-            name: "CodeAthon",
-            startDate: "2018-08-12 13:30:00",
-            endDate: "2018-08-12 17:30:00"
+            "code": "COAT2018",
+            "name": "codeAthon",
+            "startDate": "2018-08-12 13:30:00",
+            "endDate": "2018-08-12 17:30:00"
           },
           {
-            code: "KQM52018",
-            name: "Keteki QuickMatch 10.5 (Gurgaon Version)",
-            startDate: "2018-08-12 10:00:00",
-            endDate: "2018-08-12 10:30:00"
+            "code": "KQM52018",
+            "name": "Keteki QuickMatch 10.5 (Gurgaon Version)",
+            "startDate": "2018-08-12 10:00:00",
+            "endDate": "2018-08-12 10:30:00"
           },
           {
-            code: "PCJ2018",
-            name: "ProCon Junior (Rated for Division 2)",
-            startDate: "2018-08-11 19:30:00",
-            endDate: "2018-08-13 21:30:00"
+            "code": "PCJ2018",
+            "name": "ProCon Junior (Rated for Division 2)",
+            "startDate": "2018-08-11 19:30:00",
+            "endDate": "2018-08-13 21:30:00"
           },
           {
-            code: "ENAU2018",
-            name: "Encoding August '18",
-            startDate: "2018-08-05 19:30:00",
-            endDate: "2018-08-05 22:30:00"
+            "code": "ENAU2018",
+            "name": "Encoding August '18",
+            "startDate": "2018-08-05 19:30:00",
+            "endDate": "2018-08-05 22:30:00"
           },
           {
-            code: "CF22018",
-            name: "CodeFusion 19.2",
-            startDate: "2018-08-04 21:30:00",
-            endDate: "2018-08-05 01:30:00"
+            "code": "CF22018",
+            "name": "codeFusion 19.2",
+            "startDate": "2018-08-04 21:30:00",
+            "endDate": "2018-08-05 01:30:00"
           },
           {
-            code: "COHR2018",
-            name: "Coding Hours",
-            startDate: "2018-08-03 21:00:00",
-            endDate: "2018-08-05 21:00:00"
+            "code": "COHR2018",
+            "name": "Coding Hours",
+            "startDate": "2018-08-03 21:00:00",
+            "endDate": "2018-08-05 21:00:00"
           },
           {
-            code: "AUG18B",
-            name: "August Challenge 2018 Division 2",
-            startDate: "2018-08-03 15:00:02",
-            endDate: "2018-08-13 15:00:05"
+            "code": "AUG18B",
+            "name": "August Challenge 2018 Division 2",
+            "startDate": "2018-08-03 15:00:02",
+            "endDate": "2018-08-13 15:00:05"
           },
           {
-            code: "AUG18",
-            name: "August Challenge 2018",
-            startDate: "2018-08-03 15:00:00",
-            endDate: "2018-08-13 15:00:00"
+            "code": "AUG18",
+            "name": "August Challenge 2018",
+            "startDate": "2018-08-03 15:00:00",
+            "endDate": "2018-08-13 15:00:00"
           },
           {
-            code: "AUG18A",
-            name: "August Challenge 2018 Division 1",
-            startDate: "2018-08-03 15:00:00",
-            endDate: "2018-08-13 15:00:00"
+            "code": "AUG18A",
+            "name": "August Challenge 2018 Division 1",
+            "startDate": "2018-08-03 15:00:00",
+            "endDate": "2018-08-13 15:00:00"
           },
           {
-            code: "SGHC2018",
-            name: "Samsung Hiring Challenge",
-            startDate: "2018-07-28 21:00:00",
-            endDate: "2018-08-13 03:00:00"
+            "code": "SGHC2018",
+            "name": "Samsung Hiring Challenge",
+            "startDate": "2018-07-28 21:00:00",
+            "endDate": "2018-08-13 03:00:00"
           },
           {
-            code: "LTIME62B",
-            name: "July Lunchtime 2018 Division 2",
-            startDate: "2018-07-28 19:30:01",
-            endDate: "2018-07-28 22:30:01"
+            "code": "LTIME62B",
+            "name": "July Lunchtime 2018 Division 2",
+            "startDate": "2018-07-28 19:30:01",
+            "endDate": "2018-07-28 22:30:01"
           },
           {
-            code: "LTIME62",
-            name: "July Lunchtime 2018",
-            startDate: "2018-07-28 19:30:00",
-            endDate: "2018-07-28 22:30:00"
+            "code": "LTIME62",
+            "name": "July Lunchtime 2018",
+            "startDate": "2018-07-28 19:30:00",
+            "endDate": "2018-07-28 22:30:00"
           },
           {
-            code: "LTIME62A",
-            name: "July Lunchtime 2018 Division 1",
-            startDate: "2018-07-28 19:30:00",
-            endDate: "2018-07-28 22:30:00"
+            "code": "LTIME62A",
+            "name": "July Lunchtime 2018 Division 1",
+            "startDate": "2018-07-28 19:30:00",
+            "endDate": "2018-07-28 22:30:00"
           },
           {
-            code: "LOCJUL18",
-            name: "LoC July 2018",
-            startDate: "2018-07-28 00:00:00",
-            endDate: "2018-07-30 00:00:00"
+            "code": "LOCJUL18",
+            "name": "LoC July 2018",
+            "startDate": "2018-07-28 00:00:00",
+            "endDate": "2018-07-30 00:00:00"
           },
           {
-            code: "COOK96B",
-            name: "July Cook-Off 2018 Division 2",
-            startDate: "2018-07-22 21:30:03",
-            endDate: "2018-07-23 00:00:05"
+            "code": "COOK96B",
+            "name": "July Cook-Off 2018 Division 2",
+            "startDate": "2018-07-22 21:30:03",
+            "endDate": "2018-07-23 00:00:05"
           },
           {
-            code: "COOK96",
-            name: "July Cook-Off 2018",
-            startDate: "2018-07-22 21:30:00",
-            endDate: "2018-07-23 00:00:00"
+            "code": "COOK96",
+            "name": "July Cook-Off 2018",
+            "startDate": "2018-07-22 21:30:00",
+            "endDate": "2018-07-23 00:00:00"
           },
           {
-            code: "COOK96A",
-            name: "July Cook-Off 2018 Division 1",
-            startDate: "2018-07-22 21:30:00",
-            endDate: "2018-07-23 00:00:00"
+            "code": "COOK96A",
+            "name": "July Cook-Off 2018 Division 1",
+            "startDate": "2018-07-22 21:30:00",
+            "endDate": "2018-07-23 00:00:00"
           },
           {
-            code: "IOITC182",
-            name: "Replay of Indian IOITC 2018 #2 (Rated)",
-            startDate: "2018-07-21 19:00:00",
-            endDate: "2018-07-22 00:00:00"
+            "code": "IOITC182",
+            "name": "Replay of Indian IOITC 2018 #2 (Rated)",
+            "startDate": "2018-07-21 19:00:00",
+            "endDate": "2018-07-22 00:00:00"
           },
           {
-            code: "ICOP1901",
-            name: "ICO Preparatory Contest 2019 #1",
-            startDate: "2018-07-20 19:00:00",
-            endDate: "2018-07-20 23:00:00"
+            "code": "ICOP1901",
+            "name": "ICO Preparatory Contest 2019 #1",
+            "startDate": "2018-07-20 19:00:00",
+            "endDate": "2018-07-20 23:00:00"
           },
           {
-            code: "ISCC2018",
-            name: "Innerve Summer Code Challenge",
-            startDate: "2018-07-15 00:00:00",
-            endDate: "2018-07-25 23:59:00"
+            "code": "ISCC2018",
+            "name": "Innerve Summer "code" Challenge",
+            "startDate": "2018-07-15 00:00:00",
+            "endDate": "2018-07-25 23:59:00"
           },
           {
-            code: "JULY18B",
-            name: "July Challenge 2018 Division 2",
-            startDate: "2018-07-06 15:00:10",
-            endDate: "2018-07-16 15:00:10"
+            "code": "JULY18B",
+            "name": "July Challenge 2018 Division 2",
+            "startDate": "2018-07-06 15:00:10",
+            "endDate": "2018-07-16 15:00:10"
           },
           {
-            code: "JULY18",
-            name: "July Challenge 2018",
-            startDate: "2018-07-06 15:00:00",
-            endDate: "2018-07-16 15:00:00"
+            "code": "JULY18",
+            "name": "July Challenge 2018",
+            "startDate": "2018-07-06 15:00:00",
+            "endDate": "2018-07-16 15:00:00"
           },
           {
-            code: "JULY18A",
-            name: "July Challenge 2018 Division 1",
-            startDate: "2018-07-06 15:00:00",
-            endDate: "2018-07-16 15:00:00"
+            "code": "JULY18A",
+            "name": "July Challenge 2018 Division 1",
+            "startDate": "2018-07-06 15:00:00",
+            "endDate": "2018-07-16 15:00:00"
           },
           {
-            code: "CIU2018",
-            name: "CodeItUp",
-            startDate: "2018-07-03 12:00:00",
-            endDate: "2018-07-03 15:00:00"
+            "code": "CIU2018",
+            "name": ""code"ItUp",
+            "startDate": "2018-07-03 12:00:00",
+            "endDate": "2018-07-03 15:00:00"
           },
           {
-            code: "LTIME61B",
-            name: "June Lunchtime 2018 Division 2",
-            startDate: "2018-06-30 19:30:05",
-            endDate: "2018-06-30 22:30:00"
+            "code": "LTIME61B",
+            "name": "June Lunchtime 2018 Division 2",
+            "startDate": "2018-06-30 19:30:05",
+            "endDate": "2018-06-30 22:30:00"
           },
           {
-            code: "LTIME61",
-            name: "June Lunchtime 2018",
-            startDate: "2018-06-30 19:30:00",
-            endDate: "2018-06-30 22:30:00"
+            "code": "LTIME61",
+            "name": "June Lunchtime 2018",
+            "startDate": "2018-06-30 19:30:00",
+            "endDate": "2018-06-30 22:30:00"
           },
           {
-            code: "LTIME61A",
-            name: "June Lunchtime 2018 Division 1",
-            startDate: "2018-06-30 19:30:00",
-            endDate: "2018-06-30 22:30:00"
+            "code": "LTIME61A",
+            "name": "June Lunchtime 2018 Division 1",
+            "startDate": "2018-06-30 19:30:00",
+            "endDate": "2018-06-30 22:30:00"
           },
           {
-            code: "LOCJUN18",
-            name: "LoC June 2018",
-            startDate: "2018-06-30 00:00:00",
-            endDate: "2018-07-02 00:00:00"
+            "code": "LOCJUN18",
+            "name": "LoC June 2018",
+            "startDate": "2018-06-30 00:00:00",
+            "endDate": "2018-07-02 00:00:00"
           },
           {
-            code: "IOITC181",
-            name: "Replay of Indian IOI Training Camp (IOITC) #1 (Rated)",
-            startDate: "2018-06-22 19:00:00",
-            endDate: "2018-06-23 00:00:00"
+            "code": "IOITC181",
+            "name": "Replay of Indian IOI Training Camp (IOITC) #1 (Rated)",
+            "startDate": "2018-06-22 19:00:00",
+            "endDate": "2018-06-23 00:00:00"
           },
           {
-            code: "COOK95",
-            name: "June Cook-Off 2018",
-            startDate: "2018-06-17 21:30:00",
-            endDate: "2018-06-18 00:00:00"
+            "code": "COOK95",
+            "name": "June Cook-Off 2018",
+            "startDate": "2018-06-17 21:30:00",
+            "endDate": "2018-06-18 00:00:00"
           },
           {
-            code: "COOK95B",
-            name: "June Cook-Off 2018 Division 2",
-            startDate: "2018-06-17 21:30:00",
-            endDate: "2018-06-18 00:00:05"
+            "code": "COOK95B",
+            "name": "June Cook-Off 2018 Division 2",
+            "startDate": "2018-06-17 21:30:00",
+            "endDate": "2018-06-18 00:00:05"
           },
           {
-            code: "COOK95A",
-            name: "June Cook-Off 2018 Division 1",
-            startDate: "2018-06-17 21:30:00",
-            endDate: "2018-06-18 00:00:00"
+            "code": "COOK95A",
+            "name": "June Cook-Off 2018 Division 1",
+            "startDate": "2018-06-17 21:30:00",
+            "endDate": "2018-06-18 00:00:00"
           },
           {
-            code: "KQ102018",
-            name: "Keteki Quick Match 10",
-            startDate: "2018-06-17 10:00:00",
-            endDate: "2018-06-17 10:30:00"
+            "code": "KQ102018",
+            "name": "Keteki Quick Match 10",
+            "startDate": "2018-06-17 10:00:00",
+            "endDate": "2018-06-17 10:30:00"
           },
           {
-            code: "QUCO2018",
-            name: "Quick Code (Rated for Division 2)",
-            startDate: "2018-06-12 21:00:00",
-            endDate: "2018-06-12 23:30:00"
+            "code": "QUCO2018",
+            "name": "Quick "code" (Rated for Division 2)",
+            "startDate": "2018-06-12 21:00:00",
+            "endDate": "2018-06-12 23:30:00"
           },
           {
-            code: "JUNE18",
-            name: "June Challenge 2018",
-            startDate: "2018-06-01 15:00:00",
-            endDate: "2018-06-11 15:00:00"
+            "code": "JUNE18",
+            "name": "June Challenge 2018",
+            "startDate": "2018-06-01 15:00:00",
+            "endDate": "2018-06-11 15:00:00"
           },
           {
-            code: "JUNE18A",
-            name: "June Challenge 2018 Division 1",
-            startDate: "2018-06-01 15:00:00",
-            endDate: "2018-06-11 15:00:00"
+            "code": "JUNE18A",
+            "name": "June Challenge 2018 Division 1",
+            "startDate": "2018-06-01 15:00:00",
+            "endDate": "2018-06-11 15:00:00"
           },
           {
-            code: "JUNE18B",
-            name: "June Challenge 2018 Division 2",
-            startDate: "2018-06-01 15:00:00",
-            endDate: "2018-06-11 15:00:05"
+            "code": "JUNE18B",
+            "name": "June Challenge 2018 Division 2",
+            "startDate": "2018-06-01 15:00:00",
+            "endDate": "2018-06-11 15:00:05"
           }
